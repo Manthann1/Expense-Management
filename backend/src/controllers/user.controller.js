@@ -1,5 +1,5 @@
 const bcrypt = require('bcryptjs');
-const { pool } = require('../config/config');
+const { pool } = require('../../../config/config');
 
 const userController = {
   createUser: async (req, res) => {
