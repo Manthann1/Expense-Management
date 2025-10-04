@@ -297,10 +297,6 @@ cd frontend
 vercel
 ```
 
-## 📄 License
-
-MIT License - feel free to use for personal or commercial projects.
-
 ## 🤝 Contributing
 
 1. Fork the repository
