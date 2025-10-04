@@ -34,7 +34,59 @@ expense-management/
 │   ├── package.json
 │   └── server.js
 ├── frontend/
-│   └── ExpenseManagementApp.jsx
+│   ├── app/
+│   │   ├── admin/
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx
+│   │   │   └── settings/
+│   │   │       └── page.tsx
+│   │   ├── auth/
+│   │   │   ├── login/
+│   │   │   │   └── page.tsx
+│   │   │   └── signup/
+│   │   │       └── page.tsx
+│   │   ├── employee/
+│   │   │   └── expenses/
+│   │   │       └── page.tsx
+│   │   ├── manager/
+│   │   │   └── approvals/
+│   │   │       └── page.tsx
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   │
+│   ├── components/
+│   │   ├── admin/
+│   │   │   ├── approval-rules-management.tsx
+│   │   │   ├── expenses-overview.tsx
+│   │   │   └── users-management.tsx
+│   │   ├── employee/
+│   │   │   ├── expense-history.tsx
+│   │   │   └── submit-expense.tsx
+│   │   ├── manager/
+│   │   │   ├── pending-approvals.tsx
+│   │   │   └── team-expenses.tsx
+│   │   ├── layout/
+│   │   │   └── navbar.tsx
+│   │   └── ui/
+│   │
+│   ├── lib/
+│   │   ├── currency.ts
+│   │   ├── ocr.ts
+│   │   ├── types.ts
+│   │   └── utils.ts
+│   │
+│   ├── hooks/
+│   │   ├── use-mobile.ts
+│   │   └── use-toast.ts
+│   │
+│   ├── public/
+│   │
+│   ├── package.json
+│   ├── next.config.js
+│   ├── tsconfig.json
+│   ├── postcss.config.js
+│   └── tailwind.config.js
 └── README.md
 ```
 
